@@ -8,7 +8,7 @@ public class Farm {
         farm.add(new Bear());
         farm.add(new Animal());
         farm.add(new Bird());
-        farm.add(new Bird());
+        farm.add(new Eagle());
         farm.add(new Eagle());
         farm.add(new GrizzlyBear());
         farm.add(new Hummingbird());
