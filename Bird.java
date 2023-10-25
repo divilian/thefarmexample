@@ -2,10 +2,10 @@
 class Bird extends Animal {
 
     String makeNoise() {
-        return "tweet";
+        return "chirp";
     }
     
-    // Sabrina was here
+    // Sabrina was here but then she left
     String move(int dist) {
         String retval = "";
         for (int i=0; i<dist; i++) {
