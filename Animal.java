@@ -2,15 +2,15 @@
 class Animal {
 
     String makeNoise() {
-        return "RAWR";
+        return "peep";
     }
 
     String move(int dist) {
-        String retval = "";
+        String moveString = "";
         for (int i=0; i<dist; i++) {
-            retval += "tramp ";
+            moveString += "tramp ";
         }
-        return retval.substring(0,retval.length()-1);
+        return moveString.substring(0,moveString.length()-1);
     }
 
     String moveversion2(int dist) {
